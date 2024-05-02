@@ -1,0 +1,6 @@
+framework module Pods_ChaknorisQuotes {
+  umbrella header "Pods-ChaknorisQuotes-umbrella.h"
+
+  export *
+  module * { export * }
+}

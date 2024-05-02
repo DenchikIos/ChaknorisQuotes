@@ -7,23 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B41D4555C41E09AAD8C36EF /* Pods_ChaknorisQuotes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77BB7FA9B401AE66152F5392 /* Pods_ChaknorisQuotes.framework */; };
 		CE9E1A712BE3BF7600D1FD5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9E1A702BE3BF7600D1FD5A /* AppDelegate.swift */; };
 		CE9E1A732BE3BF7600D1FD5A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9E1A722BE3BF7600D1FD5A /* SceneDelegate.swift */; };
-		CE9E1A752BE3BF7600D1FD5A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9E1A742BE3BF7600D1FD5A /* ViewController.swift */; };
-		CE9E1A782BE3BF7600D1FD5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE9E1A762BE3BF7600D1FD5A /* Main.storyboard */; };
+		CE9E1A752BE3BF7600D1FD5A /* AllQuoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9E1A742BE3BF7600D1FD5A /* AllQuoteViewController.swift */; };
 		CE9E1A7A2BE3BF7800D1FD5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE9E1A792BE3BF7800D1FD5A /* Assets.xcassets */; };
 		CE9E1A7D2BE3BF7800D1FD5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE9E1A7B2BE3BF7800D1FD5A /* LaunchScreen.storyboard */; };
+		CE9E1A852BE3C02800D1FD5A /* CatalogDetailQuoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9E1A842BE3C02800D1FD5A /* CatalogDetailQuoteViewController.swift */; };
+		CE9E1A872BE3C05400D1FD5A /* CatalogQuoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9E1A862BE3C05400D1FD5A /* CatalogQuoteViewController.swift */; };
+		CE9E1A892BE3C08D00D1FD5A /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9E1A882BE3C08D00D1FD5A /* Extension.swift */; };
+		CE9E1A8B2BE3C0B500D1FD5A /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9E1A8A2BE3C0B500D1FD5A /* MainCoordinator.swift */; };
+		CE9E1A8D2BE3C0E200D1FD5A /* NetworkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9E1A8C2BE3C0E200D1FD5A /* NetworkModel.swift */; };
+		CE9E1A8F2BE3C10600D1FD5A /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9E1A8E2BE3C10600D1FD5A /* NetworkService.swift */; };
+		CE9E1A912BE3C12C00D1FD5A /* RandomQuoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9E1A902BE3C12C00D1FD5A /* RandomQuoteViewController.swift */; };
+		CE9E1A932BE3C16300D1FD5A /* RealmModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9E1A922BE3C16300D1FD5A /* RealmModel.swift */; };
+		CE9E1A952BE3C18800D1FD5A /* RealmService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9E1A942BE3C18800D1FD5A /* RealmService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		09657F9F8B25A1AE6C74A72E /* Pods-ChaknorisQuotes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChaknorisQuotes.release.xcconfig"; path = "Target Support Files/Pods-ChaknorisQuotes/Pods-ChaknorisQuotes.release.xcconfig"; sourceTree = "<group>"; };
+		694B5C8AC4BEE9124576B7D6 /* Pods-ChaknorisQuotes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChaknorisQuotes.debug.xcconfig"; path = "Target Support Files/Pods-ChaknorisQuotes/Pods-ChaknorisQuotes.debug.xcconfig"; sourceTree = "<group>"; };
+		77BB7FA9B401AE66152F5392 /* Pods_ChaknorisQuotes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChaknorisQuotes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE9E1A6D2BE3BF7600D1FD5A /* ChaknorisQuotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChaknorisQuotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE9E1A702BE3BF7600D1FD5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE9E1A722BE3BF7600D1FD5A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CE9E1A742BE3BF7600D1FD5A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CE9E1A772BE3BF7600D1FD5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE9E1A742BE3BF7600D1FD5A /* AllQuoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllQuoteViewController.swift; sourceTree = "<group>"; };
 		CE9E1A792BE3BF7800D1FD5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE9E1A7C2BE3BF7800D1FD5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE9E1A7E2BE3BF7800D1FD5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE9E1A842BE3C02800D1FD5A /* CatalogDetailQuoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogDetailQuoteViewController.swift; sourceTree = "<group>"; };
+		CE9E1A862BE3C05400D1FD5A /* CatalogQuoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogQuoteViewController.swift; sourceTree = "<group>"; };
+		CE9E1A882BE3C08D00D1FD5A /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		CE9E1A8A2BE3C0B500D1FD5A /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		CE9E1A8C2BE3C0E200D1FD5A /* NetworkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkModel.swift; sourceTree = "<group>"; };
+		CE9E1A8E2BE3C10600D1FD5A /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		CE9E1A902BE3C12C00D1FD5A /* RandomQuoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomQuoteViewController.swift; sourceTree = "<group>"; };
+		CE9E1A922BE3C16300D1FD5A /* RealmModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmModel.swift; sourceTree = "<group>"; };
+		CE9E1A942BE3C18800D1FD5A /* RealmService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +51,67 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B41D4555C41E09AAD8C36EF /* Pods_ChaknorisQuotes.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5C7A5EB83B4612BF6D5E72C7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				77BB7FA9B401AE66152F5392 /* Pods_ChaknorisQuotes.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5DF15F62929F0DC02D57A0EC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				694B5C8AC4BEE9124576B7D6 /* Pods-ChaknorisQuotes.debug.xcconfig */,
+				09657F9F8B25A1AE6C74A72E /* Pods-ChaknorisQuotes.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CE8D83422BE4271900A1C837 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CE9E1A842BE3C02800D1FD5A /* CatalogDetailQuoteViewController.swift */,
+				CE9E1A742BE3BF7600D1FD5A /* AllQuoteViewController.swift */,
+				CE9E1A902BE3C12C00D1FD5A /* RandomQuoteViewController.swift */,
+				CE9E1A862BE3C05400D1FD5A /* CatalogQuoteViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CE8D83432BE4274F00A1C837 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CE8D83442BE4276800A1C837 /* Service */,
+				CE9E1A922BE3C16300D1FD5A /* RealmModel.swift */,
+				CE9E1A8C2BE3C0E200D1FD5A /* NetworkModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CE8D83442BE4276800A1C837 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				CE9E1A8E2BE3C10600D1FD5A /* NetworkService.swift */,
+				CE9E1A942BE3C18800D1FD5A /* RealmService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
 		CE9E1A642BE3BF7600D1FD5A = {
 			isa = PBXGroup;
 			children = (
 				CE9E1A6F2BE3BF7600D1FD5A /* ChaknorisQuotes */,
 				CE9E1A6E2BE3BF7600D1FD5A /* Products */,
+				5DF15F62929F0DC02D57A0EC /* Pods */,
+				5C7A5EB83B4612BF6D5E72C7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,10 +126,12 @@
 		CE9E1A6F2BE3BF7600D1FD5A /* ChaknorisQuotes */ = {
 			isa = PBXGroup;
 			children = (
-				CE9E1A702BE3BF7600D1FD5A /* AppDelegate.swift */,
 				CE9E1A722BE3BF7600D1FD5A /* SceneDelegate.swift */,
-				CE9E1A742BE3BF7600D1FD5A /* ViewController.swift */,
-				CE9E1A762BE3BF7600D1FD5A /* Main.storyboard */,
+				CE9E1A702BE3BF7600D1FD5A /* AppDelegate.swift */,
+				CE9E1A882BE3C08D00D1FD5A /* Extension.swift */,
+				CE9E1A8A2BE3C0B500D1FD5A /* MainCoordinator.swift */,
+				CE8D83422BE4271900A1C837 /* Controllers */,
+				CE8D83432BE4274F00A1C837 /* Model */,
 				CE9E1A792BE3BF7800D1FD5A /* Assets.xcassets */,
 				CE9E1A7B2BE3BF7800D1FD5A /* LaunchScreen.storyboard */,
 				CE9E1A7E2BE3BF7800D1FD5A /* Info.plist */,
@@ -74,9 +146,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE9E1A812BE3BF7800D1FD5A /* Build configuration list for PBXNativeTarget "ChaknorisQuotes" */;
 			buildPhases = (
+				70D81CFFF07E05E1AE479EDE /* [CP] Check Pods Manifest.lock */,
 				CE9E1A692BE3BF7600D1FD5A /* Sources */,
 				CE9E1A6A2BE3BF7600D1FD5A /* Frameworks */,
 				CE9E1A6B2BE3BF7600D1FD5A /* Resources */,
+				031282525F27A33718A60EF6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,18 +201,68 @@
 			files = (
 				CE9E1A7D2BE3BF7800D1FD5A /* LaunchScreen.storyboard in Resources */,
 				CE9E1A7A2BE3BF7800D1FD5A /* Assets.xcassets in Resources */,
-				CE9E1A782BE3BF7600D1FD5A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		031282525F27A33718A60EF6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChaknorisQuotes/Pods-ChaknorisQuotes-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChaknorisQuotes/Pods-ChaknorisQuotes-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ChaknorisQuotes/Pods-ChaknorisQuotes-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		70D81CFFF07E05E1AE479EDE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChaknorisQuotes-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CE9E1A692BE3BF7600D1FD5A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE9E1A752BE3BF7600D1FD5A /* ViewController.swift in Sources */,
+				CE9E1A8D2BE3C0E200D1FD5A /* NetworkModel.swift in Sources */,
+				CE9E1A852BE3C02800D1FD5A /* CatalogDetailQuoteViewController.swift in Sources */,
+				CE9E1A8B2BE3C0B500D1FD5A /* MainCoordinator.swift in Sources */,
+				CE9E1A932BE3C16300D1FD5A /* RealmModel.swift in Sources */,
+				CE9E1A872BE3C05400D1FD5A /* CatalogQuoteViewController.swift in Sources */,
+				CE9E1A912BE3C12C00D1FD5A /* RandomQuoteViewController.swift in Sources */,
+				CE9E1A8F2BE3C10600D1FD5A /* NetworkService.swift in Sources */,
+				CE9E1A952BE3C18800D1FD5A /* RealmService.swift in Sources */,
+				CE9E1A752BE3BF7600D1FD5A /* AllQuoteViewController.swift in Sources */,
+				CE9E1A892BE3C08D00D1FD5A /* Extension.swift in Sources */,
 				CE9E1A712BE3BF7600D1FD5A /* AppDelegate.swift in Sources */,
 				CE9E1A732BE3BF7600D1FD5A /* SceneDelegate.swift in Sources */,
 			);
@@ -147,14 +271,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CE9E1A762BE3BF7600D1FD5A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CE9E1A772BE3BF7600D1FD5A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CE9E1A7B2BE3BF7800D1FD5A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,6 +398,7 @@
 		};
 		CE9E1A822BE3BF7800D1FD5A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 694B5C8AC4BEE9124576B7D6 /* Pods-ChaknorisQuotes.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -291,7 +408,6 @@
 				INFOPLIST_FILE = ChaknorisQuotes/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -309,6 +425,7 @@
 		};
 		CE9E1A832BE3BF7800D1FD5A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09657F9F8B25A1AE6C74A72E /* Pods-ChaknorisQuotes.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -318,7 +435,6 @@
 				INFOPLIST_FILE = ChaknorisQuotes/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
